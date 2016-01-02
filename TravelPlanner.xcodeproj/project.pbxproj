@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070C7BED1C380C85009D9C02 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070C7BEC1C380C85009D9C02 /* CoreLocation.framework */; };
+		070C7BEF1C3835A5009D9C02 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C7BEE1C3835A5009D9C02 /* MapPin.swift */; };
+		070C7BFA1C383F3F009D9C02 /* plus32.png in Resources */ = {isa = PBXBuildFile; fileRef = 070C7BF91C383F3F009D9C02 /* plus32.png */; };
+		070C7BFC1C383FD4009D9C02 /* NewTravelPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C7BFB1C383FD4009D9C02 /* NewTravelPlanViewController.swift */; };
+		070C7BFE1C3841BB009D9C02 /* direction129.png in Resources */ = {isa = PBXBuildFile; fileRef = 070C7BFD1C3841BB009D9C02 /* direction129.png */; };
+		070C7C001C38433B009D9C02 /* pin66.png in Resources */ = {isa = PBXBuildFile; fileRef = 070C7BFF1C38433B009D9C02 /* pin66.png */; };
+		070C7C021C3843E0009D9C02 /* draft1.png in Resources */ = {isa = PBXBuildFile; fileRef = 070C7C011C3843E0009D9C02 /* draft1.png */; };
+		070C7C041C384485009D9C02 /* notebook24.png in Resources */ = {isa = PBXBuildFile; fileRef = 070C7C031C384485009D9C02 /* notebook24.png */; };
+		070C7C061C384609009D9C02 /* picture64.png in Resources */ = {isa = PBXBuildFile; fileRef = 070C7C051C384609009D9C02 /* picture64.png */; };
+		070C7C081C38479C009D9C02 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 070C7C071C38479C009D9C02 /* location.png */; };
 		0770FCC31C0F61A800466EC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770FCC21C0F61A800466EC8 /* AppDelegate.swift */; };
-		0770FCC51C0F61A800466EC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770FCC41C0F61A800466EC8 /* ViewController.swift */; };
+		0770FCC51C0F61A800466EC8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770FCC41C0F61A800466EC8 /* HomeViewController.swift */; };
 		0770FCC81C0F61A800466EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0770FCC61C0F61A800466EC8 /* Main.storyboard */; };
 		0770FCCB1C0F61A800466EC8 /* TravelPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0770FCC91C0F61A800466EC8 /* TravelPlanner.xcdatamodeld */; };
 		0770FCCD1C0F61A800466EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0770FCCC1C0F61A800466EC8 /* Assets.xcassets */; };
 		0770FCD01C0F61A800466EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0770FCCE1C0F61A800466EC8 /* LaunchScreen.storyboard */; };
 		0770FCDB1C0F61A800466EC8 /* TravelPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770FCDA1C0F61A800466EC8 /* TravelPlannerTests.swift */; };
 		0770FCE61C0F61A800466EC8 /* TravelPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770FCE51C0F61A800466EC8 /* TravelPlannerUITests.swift */; };
+		0793EFFA1C37678600BCCEC0 /* TravelPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793EFF91C37678600BCCEC0 /* TravelPlan.swift */; };
+		0793F0701C37C4E600BCCEC0 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0793F06F1C37C4E600BCCEC0 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +44,36 @@
 			remoteGlobalIDString = 0770FCBE1C0F61A800466EC8;
 			remoteInfo = TravelPlanner;
 		};
+		0793F0181C37C3BD00BCCEC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0770FCB71C0F61A800466EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0793F0001C37C3BD00BCCEC0;
+			remoteInfo = adasdasf;
+		};
+		0793F0231C37C3BD00BCCEC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0770FCB71C0F61A800466EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0793F0001C37C3BD00BCCEC0;
+			remoteInfo = adasdasf;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		070C7BEC1C380C85009D9C02 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		070C7BEE1C3835A5009D9C02 /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		070C7BF91C383F3F009D9C02 /* plus32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus32.png; path = images/plus32.png; sourceTree = "<group>"; };
+		070C7BFB1C383FD4009D9C02 /* NewTravelPlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTravelPlanViewController.swift; sourceTree = "<group>"; };
+		070C7BFD1C3841BB009D9C02 /* direction129.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = direction129.png; path = images/direction129.png; sourceTree = "<group>"; };
+		070C7BFF1C38433B009D9C02 /* pin66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin66.png; path = images/pin66.png; sourceTree = "<group>"; };
+		070C7C011C3843E0009D9C02 /* draft1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = draft1.png; path = images/draft1.png; sourceTree = "<group>"; };
+		070C7C031C384485009D9C02 /* notebook24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = notebook24.png; path = images/notebook24.png; sourceTree = "<group>"; };
+		070C7C051C384609009D9C02 /* picture64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picture64.png; path = images/picture64.png; sourceTree = "<group>"; };
+		070C7C071C38479C009D9C02 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = images/location.png; sourceTree = "<group>"; };
 		0770FCBF1C0F61A800466EC8 /* TravelPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0770FCC21C0F61A800466EC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0770FCC41C0F61A800466EC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0770FCC41C0F61A800466EC8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0770FCC71C0F61A800466EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0770FCCA1C0F61A800466EC8 /* TravelPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelPlanner.xcdatamodel; sourceTree = "<group>"; };
 		0770FCCC1C0F61A800466EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +85,12 @@
 		0770FCE11C0F61A800466EC8 /* TravelPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0770FCE51C0F61A800466EC8 /* TravelPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelPlannerUITests.swift; sourceTree = "<group>"; };
 		0770FCE71C0F61A800466EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0793EFF81C375EDD00BCCEC0 /* TravelPlanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TravelPlanner.entitlements; sourceTree = "<group>"; };
+		0793EFF91C37678600BCCEC0 /* TravelPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelPlan.swift; sourceTree = "<group>"; };
+		0793F0011C37C3BD00BCCEC0 /* adasdasf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adasdasf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0793F0171C37C3BD00BCCEC0 /* adasdasfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adasdasfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0793F0221C37C3BD00BCCEC0 /* adasdasfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adasdasfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0793F06F1C37C4E600BCCEC0 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070C7BED1C380C85009D9C02 /* CoreLocation.framework in Frameworks */,
+				0793F0701C37C4E600BCCEC0 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +117,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0793EFFE1C37C3BD00BCCEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0793F0141C37C3BD00BCCEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0793F01F1C37C3BD00BCCEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		070C7BF41C383DDC009D9C02 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				070C7C071C38479C009D9C02 /* location.png */,
+				070C7C051C384609009D9C02 /* picture64.png */,
+				070C7C031C384485009D9C02 /* notebook24.png */,
+				070C7C011C3843E0009D9C02 /* draft1.png */,
+				070C7BFF1C38433B009D9C02 /* pin66.png */,
+				070C7BFD1C3841BB009D9C02 /* direction129.png */,
+				070C7BF91C383F3F009D9C02 /* plus32.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		0770FCB61C0F61A800466EC8 = {
 			isa = PBXGroup;
 			children = (
+				070C7BEC1C380C85009D9C02 /* CoreLocation.framework */,
+				0793F06F1C37C4E600BCCEC0 /* CloudKit.framework */,
 				0770FCC11C0F61A800466EC8 /* TravelPlanner */,
 				0770FCD91C0F61A800466EC8 /* TravelPlannerTests */,
 				0770FCE41C0F61A800466EC8 /* TravelPlannerUITests */,
@@ -92,6 +173,9 @@
 				0770FCBF1C0F61A800466EC8 /* TravelPlanner.app */,
 				0770FCD61C0F61A800466EC8 /* TravelPlannerTests.xctest */,
 				0770FCE11C0F61A800466EC8 /* TravelPlannerUITests.xctest */,
+				0793F0011C37C3BD00BCCEC0 /* adasdasf.app */,
+				0793F0171C37C3BD00BCCEC0 /* adasdasfTests.xctest */,
+				0793F0221C37C3BD00BCCEC0 /* adasdasfUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +183,18 @@
 		0770FCC11C0F61A800466EC8 /* TravelPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				070C7BF41C383DDC009D9C02 /* images */,
+				0793EFF81C375EDD00BCCEC0 /* TravelPlanner.entitlements */,
 				0770FCC21C0F61A800466EC8 /* AppDelegate.swift */,
-				0770FCC41C0F61A800466EC8 /* ViewController.swift */,
+				0770FCC41C0F61A800466EC8 /* HomeViewController.swift */,
 				0770FCC61C0F61A800466EC8 /* Main.storyboard */,
 				0770FCCC1C0F61A800466EC8 /* Assets.xcassets */,
 				0770FCCE1C0F61A800466EC8 /* LaunchScreen.storyboard */,
 				0770FCD11C0F61A800466EC8 /* Info.plist */,
 				0770FCC91C0F61A800466EC8 /* TravelPlanner.xcdatamodeld */,
+				0793EFF91C37678600BCCEC0 /* TravelPlan.swift */,
+				070C7BEE1C3835A5009D9C02 /* MapPin.swift */,
+				070C7BFB1C383FD4009D9C02 /* NewTravelPlanViewController.swift */,
 			);
 			path = TravelPlanner;
 			sourceTree = "<group>";
@@ -184,6 +273,59 @@
 			productReference = 0770FCE11C0F61A800466EC8 /* TravelPlannerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0793F0001C37C3BD00BCCEC0 /* adasdasf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0793F0291C37C3BD00BCCEC0 /* Build configuration list for PBXNativeTarget "adasdasf" */;
+			buildPhases = (
+				0793EFFD1C37C3BD00BCCEC0 /* Sources */,
+				0793EFFE1C37C3BD00BCCEC0 /* Frameworks */,
+				0793EFFF1C37C3BD00BCCEC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = adasdasf;
+			productName = adasdasf;
+			productReference = 0793F0011C37C3BD00BCCEC0 /* adasdasf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0793F0161C37C3BD00BCCEC0 /* adasdasfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0793F02C1C37C3BD00BCCEC0 /* Build configuration list for PBXNativeTarget "adasdasfTests" */;
+			buildPhases = (
+				0793F0131C37C3BD00BCCEC0 /* Sources */,
+				0793F0141C37C3BD00BCCEC0 /* Frameworks */,
+				0793F0151C37C3BD00BCCEC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0793F0191C37C3BD00BCCEC0 /* PBXTargetDependency */,
+			);
+			name = adasdasfTests;
+			productName = adasdasfTests;
+			productReference = 0793F0171C37C3BD00BCCEC0 /* adasdasfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0793F0211C37C3BD00BCCEC0 /* adasdasfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0793F02F1C37C3BD00BCCEC0 /* Build configuration list for PBXNativeTarget "adasdasfUITests" */;
+			buildPhases = (
+				0793F01E1C37C3BD00BCCEC0 /* Sources */,
+				0793F01F1C37C3BD00BCCEC0 /* Frameworks */,
+				0793F0201C37C3BD00BCCEC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0793F0241C37C3BD00BCCEC0 /* PBXTargetDependency */,
+			);
+			name = adasdasfUITests;
+			productName = adasdasfUITests;
+			productReference = 0793F0221C37C3BD00BCCEC0 /* adasdasfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,6 +337,12 @@
 				TargetAttributes = {
 					0770FCBE1C0F61A800466EC8 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = E573B49WCH;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					0770FCD51C0F61A800466EC8 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -203,6 +351,17 @@
 					0770FCE01C0F61A800466EC8 = {
 						CreatedOnToolsVersion = 7.0.1;
 						TestTargetID = 0770FCBE1C0F61A800466EC8;
+					};
+					0793F0001C37C3BD00BCCEC0 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					0793F0161C37C3BD00BCCEC0 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 0793F0001C37C3BD00BCCEC0;
+					};
+					0793F0211C37C3BD00BCCEC0 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 0793F0001C37C3BD00BCCEC0;
 					};
 				};
 			};
@@ -222,6 +381,9 @@
 				0770FCBE1C0F61A800466EC8 /* TravelPlanner */,
 				0770FCD51C0F61A800466EC8 /* TravelPlannerTests */,
 				0770FCE01C0F61A800466EC8 /* TravelPlannerUITests */,
+				0793F0001C37C3BD00BCCEC0 /* adasdasf */,
+				0793F0161C37C3BD00BCCEC0 /* adasdasfTests */,
+				0793F0211C37C3BD00BCCEC0 /* adasdasfUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,9 +393,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070C7C041C384485009D9C02 /* notebook24.png in Resources */,
+				070C7C061C384609009D9C02 /* picture64.png in Resources */,
+				070C7C081C38479C009D9C02 /* location.png in Resources */,
+				070C7BFA1C383F3F009D9C02 /* plus32.png in Resources */,
 				0770FCD01C0F61A800466EC8 /* LaunchScreen.storyboard in Resources */,
+				070C7C021C3843E0009D9C02 /* draft1.png in Resources */,
 				0770FCCD1C0F61A800466EC8 /* Assets.xcassets in Resources */,
 				0770FCC81C0F61A800466EC8 /* Main.storyboard in Resources */,
+				070C7BFE1C3841BB009D9C02 /* direction129.png in Resources */,
+				070C7C001C38433B009D9C02 /* pin66.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +420,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0793EFFF1C37C3BD00BCCEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0793F0151C37C3BD00BCCEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0793F0201C37C3BD00BCCEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,8 +448,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0793EFFA1C37678600BCCEC0 /* TravelPlan.swift in Sources */,
+				070C7BEF1C3835A5009D9C02 /* MapPin.swift in Sources */,
 				0770FCCB1C0F61A800466EC8 /* TravelPlanner.xcdatamodeld in Sources */,
-				0770FCC51C0F61A800466EC8 /* ViewController.swift in Sources */,
+				0770FCC51C0F61A800466EC8 /* HomeViewController.swift in Sources */,
+				070C7BFC1C383FD4009D9C02 /* NewTravelPlanViewController.swift in Sources */,
 				0770FCC31C0F61A800466EC8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +473,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0793EFFD1C37C3BD00BCCEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0793F0131C37C3BD00BCCEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0793F01E1C37C3BD00BCCEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +506,16 @@
 			isa = PBXTargetDependency;
 			target = 0770FCBE1C0F61A800466EC8 /* TravelPlanner */;
 			targetProxy = 0770FCE21C0F61A800466EC8 /* PBXContainerItemProxy */;
+		};
+		0793F0191C37C3BD00BCCEC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0793F0001C37C3BD00BCCEC0 /* adasdasf */;
+			targetProxy = 0793F0181C37C3BD00BCCEC0 /* PBXContainerItemProxy */;
+		};
+		0793F0241C37C3BD00BCCEC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0793F0001C37C3BD00BCCEC0 /* adasdasf */;
+			targetProxy = 0793F0231C37C3BD00BCCEC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -400,10 +624,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TravelPlanner/TravelPlanner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TravelPlanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.busradeniz.TravelPlanner;
+				PRODUCT_BUNDLE_IDENTIFIER = tr.com.netas.AppRTCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -411,10 +639,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TravelPlanner/TravelPlanner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TravelPlanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.busradeniz.TravelPlanner;
+				PRODUCT_BUNDLE_IDENTIFIER = tr.com.netas.AppRTCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -466,6 +698,76 @@
 			};
 			name = Release;
 		};
+		0793F02A1C37C3BD00BCCEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = adasdasf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.busradeniz.adasdasf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0793F02B1C37C3BD00BCCEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = adasdasf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.busradeniz.adasdasf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0793F02D1C37C3BD00BCCEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = adasdasfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.busradeniz.adasdasfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adasdasf.app/adasdasf";
+			};
+			name = Debug;
+		};
+		0793F02E1C37C3BD00BCCEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = adasdasfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.busradeniz.adasdasfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adasdasf.app/adasdasf";
+			};
+			name = Release;
+		};
+		0793F0301C37C3BD00BCCEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = adasdasfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.busradeniz.adasdasfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = adasdasf;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0793F0311C37C3BD00BCCEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = adasdasfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.busradeniz.adasdasfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = adasdasf;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -485,6 +787,7 @@
 				0770FCEC1C0F61A800466EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0770FCED1C0F61A800466EC8 /* Build configuration list for PBXNativeTarget "TravelPlannerTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +796,7 @@
 				0770FCEF1C0F61A800466EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0770FCF01C0F61A800466EC8 /* Build configuration list for PBXNativeTarget "TravelPlannerUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +805,34 @@
 				0770FCF21C0F61A800466EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0793F0291C37C3BD00BCCEC0 /* Build configuration list for PBXNativeTarget "adasdasf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0793F02A1C37C3BD00BCCEC0 /* Debug */,
+				0793F02B1C37C3BD00BCCEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0793F02C1C37C3BD00BCCEC0 /* Build configuration list for PBXNativeTarget "adasdasfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0793F02D1C37C3BD00BCCEC0 /* Debug */,
+				0793F02E1C37C3BD00BCCEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0793F02F1C37C3BD00BCCEC0 /* Build configuration list for PBXNativeTarget "adasdasfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0793F0301C37C3BD00BCCEC0 /* Debug */,
+				0793F0311C37C3BD00BCCEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

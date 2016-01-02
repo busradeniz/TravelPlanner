@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>adasdasf.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>0770FCE01C0F61A800466EC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0793F0001C37C3BD00BCCEC0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0793F0161C37C3BD00BCCEC0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0793F0211C37C3BD00BCCEC0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
